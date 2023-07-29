@@ -16,23 +16,31 @@
 This is Problem-3.5 from Exercise 3.2
 \begin{enumerate}
 \item On comparing the ratios $\frac{a1}{a2}$,$\frac{b1}{b2}$ and $\frac{c1}{c2}$,find out whether the following pairs of linear equations are consistent,or inconsistent
-$\frac{4}{3}$x=2y+8;
-2x=3y+12 \\
+$\frac{4}{3}$x+2y=8;
+2x+3y=12 \\
 \solution \\
 Given Data:
 
 This can also be written as:
 \begin{align}
-\vec{AX}=\vec{B} \\
-\frac{\mydet{ b & a2}}{\mydet{ a1 & a2}} =&
-\frac{\mydet{ 4 & -10 \\ 10 & -1}}{\mydet{1&-1\\1&1}}
+\vec{$\frac{4}{3}$&2\\2&3} \myvec{x\\y} =\vec{8\\12} \\
+x=\frac{\mydet{ b & a2}}{\mydet{ a1 & a2}} =&
+\frac{\mydet{ 8 & 12 \\ 2 & 3}}{\mydet{$\frac{4}{3}$&2\\2&3}}&=
+\frac{(8)(3)-(2)(12)}{($\frac{4}{3}$)(3)-(2)(2)}&=
+\frac{24-24}{4-4}=
+0\\
+y=\frac{\mydet{\vec{a_1}&\vec{b}}}{\mydet{\vec{a_1}&\vec{a_2}}} =&
+\frac{\mydet{$\frac{4}{3}$&2\\8&12}}{\mydet{$\frac{4}{3}$&2\\2&3}}=&
+\frac{($\frac{4}{3}$)(12)-(8)(2)}{($\frac{4}{3}$)(3)-(2)(2)}=&
+\frac{16-16}{4-4}=
+0\\
 \end{align}
-
-Ex of creating a matrix - $\myvec{1&2\\3&4}$\\
-Ex of using fraction and brak - $\frac{\brak{\vec{B}-\vec{A}}\brak{\vec{C}-\vec{B}}^{\top}}{\norm{\vec{C-B}}^2}$
-
-type your solutions using these commands
+Therefore the equation is consistent as $\frac{a1}{a2}$=$\frac{b1}{b2}$=$\frac{c1}{c2}$
 	
+
+
+
+
 
 \end{enumerate}
 
