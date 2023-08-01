@@ -1,0 +1,10 @@
+import numpy as np
+print("the coordinates of P are:")
+A=np.array([-2,-2])
+B=np.array([2,-4])
+m1=np.array([3])
+m2=np.array([4])
+x = np.array(3*2+4*(-2))/((3+4))
+y = np.array(3*(-4)+4*(-2))/((3+4))
+print('the value of x of P is',x)
+print('the value of y of P is',y)
